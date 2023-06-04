@@ -1,0 +1,162 @@
+.introduce-myself-box{
+    height: 860px;
+    padding-top: 15px;
+    /* background-color: rgb(191, 208, 238); */
+
+}
+.introduce-myself-left{
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    height: 450px;
+    width: 330px;
+    float: left;
+}
+.introduce-myself-left .left-picture img{
+    /* width: 250px; */
+    /* 居中显示 */
+    height: 200px;
+    padding-left: 40px;
+    padding-top: 30px;
+} 
+.introduce-myself-left .left-picture .wenan{
+    padding-left: 0px;
+    padding-top: 5px;
+    height: 170px;
+}
+.introduce-myself-right{
+    height: 450px;
+    width: 550px;
+    margin-left: 350px;
+    padding-top: 30px;
+}
+.introduce-myself-box .inner .introduce-myself-right table{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: top;
+    border-collapse: collapse;
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+    border-left-color: rgba(255, 255, 255, 0.8);
+    border-right-color: rgba(255, 255, 255, 0.8);
+    
+}
+.introduce-myself-box .inner .introduce-myself-right table td,th{
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.introduce-myself-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.tableline{
+    color: rgb(39, 92, 172);
+    border-bottom: thin solid black;
+}
+.introduce-myself-box .inner .introduce-myself-right table caption{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:rgb(39, 92, 172);
+    padding-bottom: 8px;
+}
+.educationline{
+    height: 300px;
+}
+.education-boxlogo{
+    padding-top: 10px;
+    margin-top: 0px;
+    text-align: left;
+    color: rgb(39, 92, 172);
+    border-bottom: 3px solid ;
+    
+}
+.educationline .frag01{
+    width: 550px;
+    float: left;
+    /* 设置行高 */
+    line-height: 2em;
+}
+.educationline .frag01 .left-time{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.educationline .frag01 .incident{
+    font-family: 'Times New Roman', Times, serif;
+}
+.educationline .frag02{
+    width: 350px;
+    float: right;
+}
+.educationline .frag02 img{
+    width: 300px;
+    float: right;
+    padding-top: 10px;
+}
+/* 母校板块 */
+.mater-box{
+    height: 920px;
+}
+.box{
+    height: 290px;
+}
+/* 轮播部分 */
+.re{
+    position: relative;
+    height: 290;
+  }
+  .re ul{
+    list-style-type:none ;
+  }
+  .re ul>li{
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+  }
+.re ol{
+    list-style: none;
+}
+.left-p{
+    float: left;
+    width: 350px;
+}
+.left-p img{
+    width: 100%;
+}
+.r-w{
+    width: 550px;
+    float: right;
+}
+.r-w p{
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+#top-r{
+    padding-top: 20px;
+    margin-top: 30px;
+    color: rgb(253, 148, 110);
+}
+.mater-box .box-top{
+    background-color:  rgb(39, 92, 172);
+    height: 250px;
+}
+.box-top .box-logo h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    color: rgb(243, 245, 247);
+}
+.box-top .notes{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.mater-wall img{
+    width: 290px;
+    float: left;
+    padding: 5px;
+}
+

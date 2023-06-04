@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人信息</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/introduction.css">
+    <script type="text/javascript" src="./js/picture.js"></script>
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <img src="./images/logo.png" alt="">
+            <div class="header-r">
+                <p id="h-time">时间：2023-6</p>
+                <p id="h-wel">welcom to my homepage</p>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="inner">
+            <ul>
+                <li class="nav-box"><span class="nav-innerbox"><a href="./index.html"> 首页</a></span></li>
+                <li class="nav-box"><span class="nav-innerbox"><a href="./message.html"> 个人信息</a></span></li>
+                <li class="nav-box"><span class="nav-innerbox"><a href="./hobby.html"> 兴趣爱好</a></span></li>
+                <li class="nav-box"><span class="nav-innerbox"><a href="./plog.html"> 我的日常</a></span></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 至此页面头部及导航区格式一致 -->
+
+    <!-- 图片展示区 -->
+
+    <div class="picture-box1">
+        <div class="inner">
+            <img src="./images/introduction-back.jpg" alt="信息页背景图">
+        </div>
+    </div>
+    <!-- 个人信息板块 -->
+    <div class="introduce-myself-box">
+        <div class="inner">
+            <!-- 信息板块左侧悬浮框 -->
+            <div class="introduce-myself-left">
+                <div class="left-picture">
+                    <img src="./images/message-mypicture.jpg" alt="左侧图像">
+                    <img class="wenan" src="./images/手写文案.jpg" alt="">
+                </div>
+            </div>
+            <!-- 信息板块右侧 -->
+            <div class="introduce-myself-right">
+                <!-- 个人简历制作 -->
+                <table>
+                    <caption>我的信息</caption>
+                    <tr>
+                        <th>姓名</th>
+                        <th>柯美琳</th>
+                        <th>性别</th>
+                        <th>女</th>
+                    </tr>
+                    <tr>
+                        <th>籍贯</th>
+                        <th>湖北大冶</th>
+                        <th>出生年月</th>
+                        <th>2003.11.19</th>
+                    </tr>
+                    <tr>
+                        <th>政治面貌</th>
+                        <th>共青团员</th>
+                        <th>民族</th>
+                        <th>汉族</th>
+                    </tr>
+                    <tr>
+                        <th>邮箱</th>
+                        <th>2718964848@qq.com</th>
+                        <th>联系电话</th>
+                        <th>17802786839</th>
+                    </tr>
+                    <tr>
+                        <th>本科</th>
+                        <th>中南财经政法大学</th>
+                        <th>专业</th>
+                        <th>信息管理与信息系统</th>
+                    </tr>
+                    <!-- 此处表格格式需要合并列单元格，使用到的是colspan -->
+                    <tr class="tableline">
+                        <td colspan="4">技能证书</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><p>熟练使用office,掌握多门编程语言如c++、java、python等<br>
+                            四级549,普通话二甲
+                        </p></td>
+                    </tr>
+                    <tr class="tableline">
+                        <td colspan="4">已获荣誉</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><ul>
+                            <li>优秀学生一等奖学金</li>
+                            <li>校级优秀学生干部</li>
+                        </ul></td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="educationline">
+                <h2 class="education-boxlogo">我的在校经历</h2>
+                <div class="frag01">
+                    <ul>
+                        <!-- 左右两边样式不同 -->
+                        <li><span class="left-time"><time>2021-11</time></span>，<span class="incident">作为主持人参加第三十三届博文杯</span></li>
+                        <li><span class="left-time"><time>2022-4 </time></span>，<span class="incident">作为成员参加互联网+</span></li>
+                        <li><span class="left-time"><time>2022-10</time></span>，<span class="incident">作为成员参加湖北省青年志愿服务项目大赛并获得省银</span></li>
+                        <li><span class="left-time"><time>2022-11</time></span>，<span class="incident">作为成员参加第三十四届博文杯并立项</span></li>
+                        <li><span class="left-time"><time>2022-12</time></span>，<span class="incident">作为成员参加大创</span></li>
+                        <li><span class="left-time"><time>2023-4 </time></span>，<span class="incident">作为核心成员参加厚德杯并被评为十佳及特色志愿公益项目</span></li>
+                        <li><span class="left-time"><time>2023-5 </time></span>，<span class="incident">工程之星最佳团体成员之一</span></li>
+                    </ul>
+                </div>
+                <div class="frag02">
+                    <img src="./images/经历背景图.jpg" alt="背景图">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 母校板块 -->
+    <div class="mater-box">
+        <div class="box-top">
+            <div class="box-logo">
+                <h2>关于我的高中</h2>
+            </div>
+            <div class="inner">
+                <div class="notes">
+                    <p>大冶一中创办于1912年，学校以“博学慎思，锲而不舍”为校训，形成了“尊师爱生，立德树人”
+                        的校风、“教学相长，和谐共进”的教风和“勤学审问，砺志笃行”的学风。大冶一中创办于1912年，
+                        是湖北省首批办好的重点中学、湖北省示范中学、全国教科研先进单位、全国学生营养与健康示范学校、
+                        湖北省教育科研实验学校、湖北省教改名校、湖北省法制示范学校、湖北省绿色学校和湖北省文明单位。
+                        湖北省大冶市第一中学校徽基本形状为圆形，似金黄太阳，寓意阳光、灿烂、和谐。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 照片板块开始 -->
+        <div class="inner">
+            <h2 class="education-boxlogo">那年那天</h2>
+            <div class="box">
+                <div class="left-p">
+                    <!-- 实现自动轮播 -->
+                    <div class="re">
+                        <ul>
+                            <li><img src="./images/with-wu.jpg" alt=""></li>
+                            <li><img src="./images/with-no1.jpg" alt=""></li>
+                            <li><img src="./images/with-hui.jpg" alt=""></li>
+                            <li><img src="./images/with-they.jpg" alt=""></li>
+                        </ul>
+                        <ol>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="r-w">
+                    <p id="top-r">be bold to climb ,to chase a dream</p>
+                    <p>我会永远怀念这段时光<br>
+                        永远记得晚自习前的广播，永远记得一起在走廊上边看日出边背单词<br>
+                        永远会记得我们拼尽全力的模样<br>
+                        前途似海<br>我们来日方长<br>
+                        希望我们都能成为更好的<br>
+                        自己
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="inner">
+            <h2 class="education-boxlogo">走进校园</h2>
+            <div class="mater-wall">
+                <img src="./images/一中彩虹.jpg" alt="一中彩虹">
+                <img src="./images/一中小路.jpg" alt="一中小路">
+                <img src="./images/操场.jpg" alt="彩虹">
+                    <!-- <img src="./images/一中彩虹.jpg" alt="一中彩虹"> -->
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            &copy; 2023, welcom to kml's homepage<br>
+           Do not linger to gather flowers to keep them,but walk on ,for flowers will keep themselves blooming all your way.
+        </p>
+    </footer>
+</body>
+</html>

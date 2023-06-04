@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+}
+.inner{
+    /* 整体布局采用凝胶布局 */
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 90px;
+    background-color:  rgb(39, 92, 172);
+}
+header img{
+    padding-top: 8px;
+}
+.header-r{
+    float: right;
+}
+#h-time{
+    color: white;
+    font-size: medium;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+#h-wel{
+    color: white;
+    margin-top: 5px;
+}
+nav{
+    height: 45px;
+}
+nav .inner ul{
+    margin: 0px;
+    padding: 0px 130px;
+    height: 45px;
+}
+nav .inner ul li{
+    float: left;
+    list-style: none;
+}
+nav .inner ul li .nav-innerbox{
+    padding: 0px 50px;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav .inner ul li .nav-innerbox a:link{
+    color: white;
+    text-decoration: none;
+}
+nav .inner ul li .nav-innerbox a:hover{
+    color: rgb(253, 148, 110);
+}
+.picture-box1  img{
+    width: 900px;
+}
+footer{
+    height: 100px;
+    background-color: rgb(39, 92, 172);
+}
+footer p{
+    text-align: center;
+    color: rgb(246, 235, 235);
+    padding-top: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

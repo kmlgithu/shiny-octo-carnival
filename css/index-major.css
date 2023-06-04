@@ -1,0 +1,76 @@
+.myself-frag{
+    height: 380px;
+}
+#homepageback img{
+    width: 45%;
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+.frag-left{
+    float: left;
+    width: 300px;
+}
+.frag-left img{
+    width: 100%;
+}
+.frag-r{
+    width: 600px;
+    float: right;
+    text-align: center;
+}
+.logo-button{
+    float: right;
+    margin: 10px 10px 0 0;
+    margin-right: 10px;
+}
+.logo-button input[type=submit]{
+    background-color:rgb(39, 92, 172) ;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+.hobby-box{
+    height: 480px;
+}
+.hobby-box .hobby-l{
+    width: 650px;
+    float: left;
+    text-align: center;
+}
+.l-top{
+    color: rgb(39, 92, 172);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.hobby-box .hobby-l p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+    /* font-weight: bold; */
+}
+.hobby-box .hobby-r{
+    width: 200px;
+    float: right;
+}
+.hobby-r img{
+    width: 100%;
+}
+.logo-box h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+.logo-box h4{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    border-bottom: 3px solid rgb(39, 92, 172);
+    border-bottom-right-radius: 10px;
+    padding-bottom: 5px;
+}
+.myself-frag2{
+    height: 330px;
+}
